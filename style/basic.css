@@ -1,0 +1,43 @@
+/* `-`-`-`-` FONTS `-`-`-`-` */
+@font-face {
+    font-family: denk;
+    src: url("/fonts/DenkOne-Regular.ttf");
+}
+@font-face {
+    font-family: display;
+    src: url("/fonts/DMSerifDisplay-Regular.ttf");
+}
+
+/* `-`-`-`-` COLOR `-`-`-`-` */
+:root{
+    --bg-color:#2A3950;
+    --main-color: #006270;
+    --green-color:#009394;
+    --btn-color:#00E0C7;
+    --des-sec-p-color:#636668;
+    --des-sec-h-color:#222222;
+
+}
+
+/* `-`-`-`-` BASIC STYLE `-`-`-`-` */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 162rem;
+    margin: 0 auto;
+}
