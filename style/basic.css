@@ -8,6 +8,10 @@
     font-family: display;
     src: url("/fonts/DMSerifDisplay-Regular.ttf");
 }
+@font-face {
+    font-family: poppins;
+    src: url("/fonts/Poppins-Regular.ttf");
+}
 
 /* `-`-`-`-` COLOR `-`-`-`-` */
 :root {
