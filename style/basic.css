@@ -3,19 +3,20 @@
     font-family: denk;
     src: url("/fonts/DenkOne-Regular.ttf");
 }
+
 @font-face {
     font-family: display;
     src: url("/fonts/DMSerifDisplay-Regular.ttf");
 }
 
 /* `-`-`-`-` COLOR `-`-`-`-` */
-:root{
-    --bg-color:#2A3950;
+:root {
+    --bg-color: #2A3950;
     --main-color: #006270;
-    --green-color:#009394;
-    --btn-color:#00E0C7;
-    --des-sec-p-color:#636668;
-    --des-sec-h-color:#222222;
+    --green-color: #009394;
+    --btn-color: #00E0C7;
+    --des-sec-p-color: #636668;
+    --des-sec-h-color: #222222;
 
 }
 
@@ -27,17 +28,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-a{
+
+a {
     text-decoration: none;
     display: inline-block;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 162rem;
     margin: 0 auto;
+}
+
+.public_p {
+    font-family: display;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.public_h2 {
+    font-family: display;
+    font-weight: 400;
+    font-size: 6.2rem;
+    line-height: 6.9rem;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 8px 14px rgba(0, 0, 0, 0.15);
 }
