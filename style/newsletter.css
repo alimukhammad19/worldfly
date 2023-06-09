@@ -1,5 +1,10 @@
+/*  `-`-`-`-` newsletter STYLE `-`-`-`-`  */
 .newsletter-sec {
     background-color: var(--bg-color);
+}
+
+.newsletter{
+    text-align: center;
 }
 
 .new{
