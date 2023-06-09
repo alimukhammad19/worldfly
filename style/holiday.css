@@ -1,0 +1,40 @@
+.holidays-sec{
+    padding: 26rem 0 12rem;
+    background-color: #2A3950;  
+    background-image: url("/img/holiday/holiday_bg.png"); 
+    background-position: center; 
+}
+.holiday{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+.text_side>h3{
+    font-family: denk;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 6.2rem;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+.text_side>h2{
+    text-align: start;
+}
+.text_side>p{
+    margin: 1.5rem 0 5rem;
+}
+
+.holiday_btn>button{
+    font-family: display;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 125%;
+    text-align: center;
+    color: #2A3950;
+
+    padding: 2rem 4.8rem;
+    background-color: #00E0C7;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+}
