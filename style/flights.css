@@ -1,0 +1,143 @@
+/*  `-`-`-`-` FLIGHTS STYLE `-`-`-`-`  */
+.flights-sec {
+    background-color: var(--bg-color);
+    padding: 10rem 0 20rem;
+}
+
+.flights .public_h2 {
+    margin-bottom: 1.5rem;
+}
+
+.flights .public_p {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.flight_cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.flight_card {
+    position: relative;
+}
+
+.flight_img {
+    width: 100%;
+}
+
+.flight_card_info {
+    padding: 2rem;
+    row-gap: 2rem;
+    background-color: #fff;
+}
+
+.flight_card_info_top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.flight_card_info_top>p {
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #2A3950;
+}
+
+.flight_card_info_bottom {
+    display: flex;
+    justify-content: space-between;
+    /* row-gap: 2rem; */
+    align-items: center;
+}
+
+.flight_card_info_bottom img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.flight_card_info_bottom1 {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.flight_card_info_bottom2 {
+    display: flex;
+    gap: 1.1rem;
+}
+
+.flight_card_info_bottom1 p {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: var(--bg-color);
+}
+
+.flight_card_info_bottom2 p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--bg-color);
+}
+
+.star4_5 {
+    display: flex;
+    gap: 1rem;
+    padding: 1.1rem;
+    background: rgba(42, 57, 80, 0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+
+    border-radius: 1rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.star4_5 p {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.money {
+    display: flex;
+    gap: 1rem;
+    padding: 1.1rem;
+    background: rgba(42, 57, 80, 0.3);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+
+    border-radius: 1rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.money p {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.back {
+    position: absolute;
+    top: 17rem;
+    left: -7rem;
+}
+
+.next {
+    position: absolute;
+    top: 17rem;
+    right: -7rem;
+}
