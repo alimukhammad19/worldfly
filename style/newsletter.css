@@ -1,0 +1,39 @@
+.newsletter-sec {
+    background-color: var(--bg-color);
+}
+
+.new{
+    padding: 7rem;
+    border-radius: 5rem;
+    background-color: #006270;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.newsletter-sec .public_p {
+    text-align: center;
+    margin: 1.5rem 0 5rem 0;
+}
+
+.newsletter-sec input {
+    padding: 3.5rem 0 3.5rem 5rem;
+    width: 148rem;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;
+}
+
+.newsletter-sec .button {
+    border: none;
+    padding: 2rem 8.2rem;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: #2A3950;
+    background-color: #00E0C7;
+    position: absolute;
+    top: 27.5rem;
+    right: 9rem;
+}
