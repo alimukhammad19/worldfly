@@ -1,0 +1,222 @@
+header {
+    background-image: url("/img/header_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* `-`-`-`-` NAVBAR `-`-`-`-` */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 0;
+    /* opacity: 0.5; */
+    /* box-shadow: 0px 10px 44px rgba(0, 0, 0, 0.1); */
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-right>ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.corporate_agent {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.corporate_agent:first-child {
+    padding-right: 2.5rem;
+    border-right: 2px solid var(--main-color);
+}
+
+.corporate_agent>img,
+span {
+    cursor: pointer;
+}
+
+.nav-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_h {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--bg-color);
+}
+
+.nav_p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: var(--bg-color);
+}
+
+.nav-right>button {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: var(--bg-color);
+    border: .2rem solid #FFFFFF;
+    box-shadow: 0 .6rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: .8rem;
+    padding: 1.1rem 4.4rem;
+}
+
+/* `-`-`-`-` HERO SECTION `-`-`-`-` */
+.hero-section {
+    padding: 16.2rem 46rem 32.7rem 46rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: display;
+    font-weight: 400;
+    font-size: 8.4rem;
+    line-height: 9.4rem;
+    color: var(--main-color);
+    text-shadow: 0px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section>p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.7rem;
+    color: var(--main-color);
+    margin: 2rem 0 5rem 0;
+}
+
+.hero-section>button {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    background-color: var(--bg-color);
+    border: .2rem solid #FFFFFF;
+    box-shadow: 0 1rem 4.7rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    padding: 1.8rem 5.1rem;
+}
+
+/* `-`-`-`-` SEARCH SECTION `-`-`-`-` */
+.search-section {
+    position: absolute;
+    top: 84rem;
+}
+
+.search-sub {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: var(--bg-color);
+}
+
+.search-sub>span:nth-child(2),
+.search-sub>span:nth-child(3) {
+    padding: 1.4rem 6.8rem;
+    background: #FFFFFF;
+    opacity: 0.9;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #fff;
+}
+
+.search-sub>span:first-child {
+    background-color: #fff;
+    padding: 2.3rem 7.3rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.search-sec {
+    padding: 4rem 3rem 2.5rem 3rem;
+    background-color: #fff;
+    border-radius: 0 2rem 2rem 2rem;
+}
+
+.searchs {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 1.5rem;
+    gap: 2.5rem;
+    align-items: flex-end;
+}
+
+.searchs>button {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: var(--bg-color);
+    padding: 2rem 4.6rem 2rem 5rem;
+    border-radius: 1rem;
+    background-color: var(--btn-color);
+}
+.searchs > img{
+    padding-bottom: 2rem;
+}
+
+.search>h5 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: var(--green-color);
+    margin-bottom: .5rem;
+}
+
+.searching {
+    border-radius: 1rem;
+    border: 1px solid var(--bg-color);
+    padding: 2rem;
+    display: flex;
+    gap: 11.2rem;
+}
+
+.searching>span {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: var(--bg-color);
+}
+
+.search-check {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-check>input {
+    width: 2rem;
+    height: 2rem;
+}
+
+.search-check>span {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    color: var(--green-color);
+}
