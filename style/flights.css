@@ -2,6 +2,7 @@
 .flights-sec {
     background-color: var(--bg-color);
     padding: 10rem 0 20rem;
+    background-image: url("/img/flights/flights_bg.png");
 }
 
 .flights .public_h2 {
@@ -134,10 +135,12 @@
     position: absolute;
     top: 17rem;
     left: -7rem;
+    cursor: pointer;
 }
 
 .next {
     position: absolute;
     top: 17rem;
     right: -7rem;
+    cursor: pointer;
 }

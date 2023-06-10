@@ -1,6 +1,7 @@
 /*  `-`-`-`-` newsletter STYLE `-`-`-`-`  */
 .newsletter-sec {
     background-color: var(--bg-color);
+    padding-bottom: 10rem;
 }
 
 .newsletter{
