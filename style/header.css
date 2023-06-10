@@ -77,6 +77,7 @@ span {
     box-shadow: 0 .6rem 2rem rgba(0, 0, 0, 0.1);
     border-radius: .8rem;
     padding: 1.1rem 4.4rem;
+    cursor: pointer;
 }
 
 /* `-`-`-`-` HERO SECTION `-`-`-`-` */
@@ -134,19 +135,21 @@ h1 {
     color: var(--bg-color);
 }
 
-.search-sub>span:nth-child(2),
-.search-sub>span:nth-child(3) {
+.search-sub>span{
     padding: 1.4rem 6.8rem;
     background: #FFFFFF;
     opacity: 0.9;
     border-radius: 1rem 1rem 0 0;
     background-color: #fff;
+    margin-top: 1.8rem;
 }
 
-.search-sub>span:first-child {
+.search-sub>span:hover {
     background-color: #fff;
     padding: 2.3rem 7.3rem;
+    opacity: 1;
     border-radius: 2rem 2rem 0 0;
+    margin-top: 0rem;
 }
 
 .search-sec {
